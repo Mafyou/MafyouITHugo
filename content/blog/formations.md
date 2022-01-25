@@ -1,13 +1,13 @@
 +++
-author = "Hugo Authors"
-title = "Markdown Syntax Guide"
-date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+author = "Mafyou"
+title = "Formations"
+date = "2022-01-25"
+description = "Plein de thèmes sur se former tout en comprenant."
 tags = [
-    "markdown",
-    "css",
-    "html",
-    "themes",
+    "Microsoft",
+    "C#",
+    "Web",
+    "Mobile",
 ]
 categories = [
     "themes",

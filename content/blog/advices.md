@@ -1,11 +1,11 @@
 +++
-author = "Hugo Authors"
-title = "Rich Content"
-date = "2019-03-10"
-description = "A brief description of Hugo Shortcodes"
+author = "Mafyou"
+title = "Conseils"
+date = "2022-01-25"
+description = "Plein de conseils en info !"
 tags = [
-    "shortcodes",
-    "privacy",
+    "conseils",
+    "informatique",
 ]
 +++
 

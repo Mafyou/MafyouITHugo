@@ -8,15 +8,15 @@ pygmentsUseClasses=true
 [params]
   author = "Mafyou"
   description = "Conseils & Formations"
-  keywords = "informatique;formations;conseils"
+  keywords = "informatique;formations;conseils;"
   useAvatar = true
   microBlogSection = "posts"
   displayMicroBlog = false
   displayRecent = true
-  recentMax = 3
+  recentMax = 2
   mail = "mdupleix.pro@hotmail.com"
   phone = "0615042445"
-  formspreeID = "yourformspreeID"
+  formspreeID = "f/mgedojyb"
 
 [menu]
   [[menu.main]]
@@ -37,7 +37,7 @@ pygmentsUseClasses=true
   [[menu.main]]
     name = "Github"
     pre = "<i class=\"fab fa-github fa-ms\"></i>"
-    url = "https://github.com/yourgithubusername23434"
+    url = "https://github.com/Mafyou"
     weight = -6 
   #[[menu.main]]
     #name = "RSS"
