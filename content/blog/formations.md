@@ -22,25 +22,26 @@ Les formations ? Par ici :-)
 
 ## Devenir plus productif avec votre ordi !
 
-Comment faire pour être mieux organisé ?
-Comment faire pour être plus rapide ?
-Comment trouver l'information au plus vite ?
+Comment faire pour être mieux organisé ?  
+Comment faire pour être plus rapide ?  
+Comment trouver l'information au plus vite ?  
 
-Toutes ces types de questions seront abordées ;-)
-Une chose est sur, il va falloir changer vos habitudes !  
+Tous ces types de questions seront abordés ;-)  
+Une chose est sûre, il va falloir changer vos habitudes !  
 (Windows > 8, Mac, Linux.)
 
-## Comment on peut mettre qqch en code sur le net ?
+## Comment peut on mettre qqch en code sur le net ?
 
-Vous n'avez plus qu'à souscrire et je vous montrerais les rouages ;-)  
-C'est pas compliqué, faut juste, de la "curiosité".
+Vous n'avez plus qu'à souscrire et je vous montrerai les rouages ;-)  
+C'est simple, il faut, juste, de la "curiosité".
 
-## Comment communique les devs / designer
+## Comment communiquent les devs / designers
 
 C'est quand même dingue, même lui il me parle d'auto-gestion.  
-S'auto gérer dans une équipe, c'est primordiale. On a pas besoin des rôles qui ne regardent que nos "indicateurs".  
-Le but, c'est de faire le projet à bien. Non ?  
-Donc, comment "ils" font pour s'oganiser, c'est parti ?
+S'auto gérer dans une équipe, c'est primordial. On n'a pas forcément besoin des rôles qui ne regardent que nos "indicateurs".  
+Le but, c'est de mener le projet à bien. Non ?  
+Donc, comment font "ils" pour s'oganiser ?  
+C'est parti ?
 
 #### Devs & Designers
 
@@ -49,6 +50,14 @@ Donc, comment "ils" font pour s'oganiser, c'est parti ?
 - Hard to guess but, anyway. How could we fix that? The prod is engaged.  
 - It's my domain, I can be in charge. Or Z could be too. Wanna discuss with?  It's an NFT artist.
 - Yes, ok.
+
+## Formations vers le dev avec les outils Microsoft
+
+#### Du Dev
+{{< highlight "C#" >}}
+OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://MafyouIT.tech")); // Sample to open browser
+{{< /highlight >}}
+Suffit de Binder et hop hop !
 
 ## Why not?
 
@@ -59,11 +68,3 @@ Voilà,
     1 | 35
   3 | 90
   5 | 150
-
-## Formations vers le dev avec les outils Microsoft
-
-#### Du Dev
-{{< highlight "C#" >}}
-OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://MafyouIT.tech")); // Sample to open browser
-{{< /highlight >}}
-Suffit de Binder et hop hop !

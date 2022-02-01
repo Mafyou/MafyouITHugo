@@ -11,4 +11,4 @@ tags = [
 
 # De l'utilisation d'un SmartPhone.
 # Du gain de productivité sur votre ordi.
-# Au conseils en développement.
+# Aux conseils en développement.
