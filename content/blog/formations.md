@@ -30,7 +30,7 @@ Tous ces types de questions seront abordés ;-)
 Une chose est sûre, il va falloir changer vos habitudes !  
 (Windows > 8, Mac, Linux.)
 
-## Comment peut on mettre qqch en code sur le net ?
+## Comment peut-on mettre qqch en code sur le net ?
 
 Vous n'avez plus qu'à souscrire et je vous montrerai les rouages ;-)  
 C'est simple, il faut, juste, de la "curiosité".
@@ -38,7 +38,7 @@ C'est simple, il faut, juste, de la "curiosité".
 ## Comment communiquent les devs / designers
 
 C'est quand même dingue, même lui il me parle d'auto-gestion.  
-S'auto gérer dans une équipe, c'est primordial. On n'a pas forcément besoin des rôles qui ne regardent que nos "indicateurs".  
+S'auto gérer dans une équipe, c'est primordial. On n'a pas forcément besoin de gens qui ne regardent que nos "indicateurs".  
 Le but, c'est de mener le projet à bien. Non ?  
 Donc, comment font "ils" pour s'oganiser ?  
 C'est parti ?
