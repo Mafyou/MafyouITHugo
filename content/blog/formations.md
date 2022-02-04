@@ -58,15 +58,3 @@ C'est parti ?
 OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://MafyouIT.tech")); // Sample to open browser
 {{< /highlight >}}
 Suffit de Binder et hop hop !
-
-## Why not?
-
-Voilà,
-
-   Hours | Price
---------|------
-    1 | 35
-  3 | 90
-  5 | 150
-
-  1ère heure **gratuite** et la suite: **Si** on s'entend bien, alors on continue. Sinon, **non**.

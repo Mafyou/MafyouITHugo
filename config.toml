@@ -24,21 +24,21 @@ pygmentsUseClasses=true
     pre = "<i class=\"fas fa-home fa-sm\"></i>"
     url = "/"
     weight = -9 
-  #[[menu.main]]
-    #name = "blog"
-    #pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
-    #url = "/blog/"
-    #weight = -8
+  [[menu.main]]
+    name = "Prix"
+    pre = "<i class=\"fa fa-money fa-ms\"></i>"
+    url = "/prices/"
+    weight = -8
   #[[menu.main]]
     #name = "tags"
     #pre = "<i class=\"fas fa-tags fa-ms\"></i>"
     #url = "/tags"
     #weight = -7 
-  [[menu.main]]
-    name = "Github"
-    pre = "<i class=\"fab fa-github fa-ms\"></i>"
-    url = "https://github.com/Mafyou"
-    weight = -6 
+  #[[menu.main]]
+    #name = "Github"
+    #pre = "<i class=\"fab fa-github fa-ms\"></i>"
+    #url = "https://github.com/Mafyou"
+    #weight = -6 
   #[[menu.main]]
     #name = "RSS"
     #pre = "<i class=\"fas fa-rss fa-ms\"></i>"
