@@ -96,7 +96,8 @@ aside nav a {
     overflow-x: hidden;
     overflow-y: auto;
     white-space: nowrap;
-    text-align: center;
+    text-align: left;
+    margin-left: 15%;
     transition: 0.2s;
 }
 

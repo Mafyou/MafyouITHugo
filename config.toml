@@ -25,10 +25,15 @@ pygmentsUseClasses=true
     url = "/"
     weight = -9 
   [[menu.main]]
+    name = "Profil"
+    pre = "<i class=\"fa fa-user fa-ms\"></i>"
+    url = "/profil/"
+    weight = -8
+[[menu.main]]
     name = "Prix"
     pre = "<i class=\"fa fa-money fa-ms\"></i>"
     url = "/prices/"
-    weight = -8
+    weight = -7
   #[[menu.main]]
     #name = "tags"
     #pre = "<i class=\"fas fa-tags fa-ms\"></i>"

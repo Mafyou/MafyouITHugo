@@ -1,6 +1,6 @@
 +++
 author = "Mafyou"
-aliases = ["prices",]
+aliases = ["prices"]
 title = "Prix"
 tags = ["index"]
 +++
