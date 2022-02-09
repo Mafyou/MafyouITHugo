@@ -5,8 +5,9 @@ title = "Profil"
 tags = ["index"]
 +++
 
-CV
- ===============
+CV  
+ ===============  
+   
 À 12 ans, j'ai crée mon 1er site web.  
 En 2010, j'ai fait 70h/semaine pendant 1 an à Epitech.  
 En 2012, j'ai passé 1 an à San Francisco avec SupInfo.  

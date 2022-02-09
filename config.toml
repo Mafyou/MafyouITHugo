@@ -5,6 +5,11 @@ copyright = "Copyright © 2022, Mathieu Dupleix; Tous droits réservés."
 theme = "npq-hugo"
 pygmentsUseClasses=true
 
+[markup]
+  defaultMarkdownHandler = 'blackFriday'
+    [markup.blackFriday]
+      hrefTargetBlank = true
+
 [params]
   author = "Mafyou"
   description = "Conseils & Formations"
@@ -34,11 +39,11 @@ pygmentsUseClasses=true
     pre = "<i class=\"fa fa-money fa-ms\"></i>"
     url = "/prices/"
     weight = -7
-  #[[menu.main]]
-    #name = "tags"
-    #pre = "<i class=\"fas fa-tags fa-ms\"></i>"
-    #url = "/tags"
-    #weight = -7 
+  [[menu.main]]
+    name = "Réservation"
+    pre = "<i class=\"fa fa-ticket fa-ms\"></i>"
+    url = "/resa"
+    weight = -6
   #[[menu.main]]
     #name = "Github"
     #pre = "<i class=\"fab fa-github fa-ms\"></i>"
