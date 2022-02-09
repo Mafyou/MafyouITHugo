@@ -8,7 +8,7 @@ tags = ["index"]
  Why not?  
  ===============
 
-Voilà,
+Well,
 
    Hours | Price
 --------|------
@@ -16,4 +16,4 @@ Voilà,
   3 | 90
   5 | 150
 
-  1ère heure **gratuite** et la suite: **Si** on s'entend bien, alors on continue. Sinon, **non**.
+  First hour **Free** and the next : **If** we are ok... Well, we continue ;-). Otherwise, **nope**.

@@ -1,4 +1,5 @@
 <footer>
+{{ partial "allLanguages.html" . }}
 <div class="footer-content">
 {{if (or (isset .Site.Params "mail") (isset .Site.Params "phone") ) }}
   <div class="contact-info">

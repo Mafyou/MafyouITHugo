@@ -1,0 +1,6 @@
+
+<ul>
+    {{ range $.AllTranslations }}
+        <li class="dropdown_link"><a href="{{ .RelPermalink }}" target="_self" rel="noopener noreferrer"><img src="/img/{{ .Site.Language.Params.flag }}" height="20" /> {{ .Language.LanguageName }}</a></li>
+    {{ end }}
+</ul>

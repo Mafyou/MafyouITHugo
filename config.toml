@@ -1,9 +1,16 @@
 baseURL = "https://green-hill-0dc7f4703.1.azurestaticapps.net"
+builddrafts = false
+canonifyurls = false
 languageCode = "fr-fr"
+defaultContentLanguage = "fr"
 title = "Mafyou IT"
 copyright = "Copyright © 2022, Mathieu Dupleix; Tous droits réservés."
 theme = "npq-hugo"
 pygmentsUseClasses=true
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
 
 [markup]
   defaultMarkdownHandler = 'blackFriday'
@@ -23,39 +30,87 @@ pygmentsUseClasses=true
   phone = "0615042445"
   formspreeID = "f/mgedojyb"
 
-[menu]
-  [[menu.main]]
-    name = "Accueil"
-    pre = "<i class=\"fas fa-home fa-sm\"></i>"
-    url = "/"
-    weight = -9 
-  [[menu.main]]
-    name = "Profil"
-    pre = "<i class=\"fa fa-user fa-ms\"></i>"
-    url = "/profil/"
-    weight = -8
-[[menu.main]]
-    name = "Prix"
-    pre = "<i class=\"fa fa-money fa-ms\"></i>"
-    url = "/prices/"
-    weight = -7
-  [[menu.main]]
-    name = "Réservation"
-    pre = "<i class=\"fa fa-ticket fa-ms\"></i>"
-    url = "/resa"
-    weight = -6
-  #[[menu.main]]
-    #name = "Github"
-    #pre = "<i class=\"fab fa-github fa-ms\"></i>"
-    #url = "https://github.com/Mafyou"
-    #weight = -6 
-  #[[menu.main]]
-    #name = "RSS"
-    #pre = "<i class=\"fas fa-rss fa-ms\"></i>"
-    #url = "/index.xml"
-    #weight = -4 
-  [[menu.main]]
-    name = "Contact"
-    pre = "<i class=\"far fa-envelope\"></i>"
-    url = "/contact"
-    weight = -1 
+## Site Settings
+[languages]
+    [languages.fr]
+    contentDir = "content/fr"
+    languageName = "Français"
+    title = "Mafyou en Français"
+    weight = 1
+    flag = "flag-fr.png"
+    [languages.fr.params]
+        languageName = "Français"
+        author = "Mafyou"
+        intro = "Un curieux dans le numérique !"
+        description = "Aujourd'hui à @AstraZeneca. Hier à @AxaIM"
+        description2 = "\"Toujours prêt pour de nouveaux challenges.\""
+        authorimage = "me.jpg"
+        dateformat = "11 Fev, 2021"
+        dateFormatFull = "02/01/2006"
+        dateFormatTime = "2 Jan 2006 15:04"
+    [languages.fr.menu]
+    [[languages.fr.menu.main]]
+            name = "Accueil"
+            pre = "<i class=\"fas fa-home fa-sm\"></i>"
+            url = "/"
+            weight = -9
+    [[languages.fr.menu.main]]
+            name = "Profil"
+            pre = "<i class=\"fa fa-user fa-ms\"></i>"
+            url = "/profil/"
+            weight = -8
+    [[languages.fr.menu.main]]
+            name = "Prix"
+            pre = "<i class=\"fa fa-money fa-ms\"></i>"
+            url = "/prices/"
+            weight = -7
+    [[languages.fr.menu.main]]
+            name = "Réservation"
+            pre = "<i class=\"fa fa-ticket fa-ms\"></i>"
+            url = "/resa"
+            weight = -6
+    [[languages.fr.menu.main]]
+            name = "Contact"
+            pre = "<i class=\"far fa-envelope\"></i>"
+            url = "/contact"
+            weight = 5
+    [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    title = "Mafyou in English"
+    weight = 2
+    flag = "flag-en.png"
+    [[languages.en.menu.main]]
+            name = "Accueil"
+            pre = "<i class=\"fas fa-home fa-sm\"></i>"
+            url = "/"
+            weight = -9
+    [[languages.en.menu.main]]
+            name = "Profil"
+            pre = "<i class=\"fa fa-user fa-ms\"></i>"
+            url = "/profil/"
+            weight = -8
+    [[languages.en.menu.main]]
+            name = "Prices"
+            pre = "<i class=\"fa fa-money fa-ms\"></i>"
+            url = "/prices/"
+            weight = -7
+    [[languages.en.menu.main]]
+            name = "Reservations"
+            pre = "<i class=\"fa fa-ticket fa-ms\"></i>"
+            url = "/resa"
+            weight = -6
+    [[languages.en.menu.main]]
+            name = "Contact"
+            pre = "<i class=\"far fa-envelope\"></i>"
+            url = "/contact"
+            weight = 5
+    [languages.en.params]
+        author = "Mafyou"
+        intro = "A curious in numeric !"
+        description = "Today at @AstraZeneca. Yesterday at @AxaIM"
+        description2 = "\"Always ready for new challenges.\""
+        authorimage = "me.jpg"
+        dateformat = "Feb 11, 2021"
+        dateFormatFull = "01/02/2006"
+        dateFormatTime = "Jan 2 2006 15:04"
