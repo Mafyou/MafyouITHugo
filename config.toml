@@ -40,6 +40,7 @@ publishdir = "public"
     flag = "flag-fr.png"
     [languages.fr.params]
         languageName = "Français"
+        copyright = "Copyright © 2022, Mathieu Dupleix; Tous droits réservés."
         author = "Mafyou"
         intro = "Un curieux dans le numérique !"
         description = "Aujourd'hui à @AstraZeneca. Hier à @AxaIM"
@@ -107,6 +108,7 @@ publishdir = "public"
             weight = 5
     [languages.en.params]
         author = "Mafyou"
+        copyright = "Copyright © 2022, Mathieu Dupleix; All rights reserverd."
         intro = "A curious in numeric !"
         description = "Today at @AstraZeneca. Yesterday at @AxaIM"
         description2 = "\"Always ready for new challenges.\""
