@@ -28,7 +28,6 @@ publishdir = "public"
   recentMax = 2
   mail = "mdupleix.pro@hotmail.com"
   phone = "0615042445"
-  formspreeID = "f/mgedojyb"
 
 ## Site Settings
 [languages]
@@ -41,6 +40,7 @@ publishdir = "public"
     [languages.fr.params]
         languageName = "Français"
         copyright = "Copyright © 2022, Mathieu Dupleix; Tous droits réservés."
+        yourname = "Votre nom"
         author = "Mafyou"
         intro = "Un curieux dans le numérique !"
         description = "Aujourd'hui à @AstraZeneca. Hier à @AxaIM"
@@ -49,6 +49,12 @@ publishdir = "public"
         dateformat = "11 Fev, 2021"
         dateFormatFull = "02/01/2006"
         dateFormatTime = "2 Jan 2006 15:04"
+        
+        [languages.fr.params.formspreeID]
+                url = "f/mgedojyb"
+                Yourname = "Vous êtes ?"
+                Youremail = "Votre email ?"
+                Yourmsg = "Votre message ?"
     [languages.fr.menu]
     [[languages.fr.menu.main]]
             name = "Accueil"
@@ -109,6 +115,7 @@ publishdir = "public"
     [languages.en.params]
         author = "Mafyou"
         copyright = "Copyright © 2022, Mathieu Dupleix; All rights reserverd."
+        yourname = "Your name"
         intro = "A curious in numeric !"
         description = "Today at @AstraZeneca. Yesterday at @AxaIM"
         description2 = "\"Always ready for new challenges.\""
@@ -116,3 +123,8 @@ publishdir = "public"
         dateformat = "Feb 11, 2021"
         dateFormatFull = "01/02/2006"
         dateFormatTime = "Jan 2 2006 15:04"
+        [languages.en.params.formspreeID]
+                url = "f/mgedojyb"
+                Yourname = "Your Name?"
+                Youremail = "Your Mail?"
+                Yourmsg = "Your Message?"
