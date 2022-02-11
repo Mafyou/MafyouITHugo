@@ -7,6 +7,6 @@ method="POST"
     <input id="mail" type="text" name="_replyto" placeholder="{{ .Youremail }}">
     <textarea id="message" name="message" placeholder="{{ .Yourmsg }}"></textarea>
 
-<button class="reach-me-send" type="submit">Envoyer</button>
+<button class="reach-me-send" type="submit">{{ .Tosend }}</button>
 </form>
 {{end}}

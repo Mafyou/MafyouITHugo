@@ -55,6 +55,7 @@ publishdir = "public"
                 Yourname = "Vous êtes ?"
                 Youremail = "Votre email ?"
                 Yourmsg = "Votre message ?"
+                Tosend = "Envoyer !"
     [languages.fr.menu]
     [[languages.fr.menu.main]]
             name = "Accueil"
@@ -82,11 +83,11 @@ publishdir = "public"
             url = "/contact"
             weight = 5
     [languages.en]
-    languageName = "English"
-    contentDir = "content/en"
-    title = "Mafyou in English"
-    weight = 2
-    flag = "flag-en.png"
+        languageName = "English"
+        contentDir = "content/en"
+        title = "Mafyou in English"
+        weight = 2
+        flag = "flag-en.png"
     [[languages.en.menu.main]]
             name = "Accueil"
             pre = "<i class=\"fas fa-home fa-sm\"></i>"
@@ -128,3 +129,4 @@ publishdir = "public"
                 Yourname = "Your Name?"
                 Youremail = "Your Mail?"
                 Yourmsg = "Your Message?"
+                Tosend = "Send !"
